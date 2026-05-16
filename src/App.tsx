@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import logoInkubator from '../assets/Inkubator.png'; // Sesuaikan jalurnya
 import { motion, AnimatePresence } from 'motion/react';
 import { 
   Zap,
@@ -397,7 +398,7 @@ export default function App() {
               <div className="relative group">
                 <div className="aspect-[4/3] glass rounded-3xl overflow-hidden shadow-2xl relative border-primary/20 bg-white/5 ring-1 ring-white/10">
                   <img 
-                    src="./Inkubator.png" 
+                    src={logoInkubator}
                     alt="Inkubator VeloFerment Industrial" 
                     className="w-full h-full object-contain p-4 transition-transform duration-700 group-hover:scale-105"
                     referrerPolicy="no-referrer"
