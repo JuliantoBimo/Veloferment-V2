@@ -1,4 +1,41 @@
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
+name: Automated Node.js Build
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+# TAMBAHKAN BARIS INI UNTUK OPT-IN KE NODE.JS 24
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  proses-build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Ambil Kode dari Repositori
+      uses: actions/checkout@v4
+
+    - name: Inisialisasi Node.js Environment
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20' # Ini adalah versi untuk kode proyek Anda (tetap aman di 20/22)
+        cache: 'npm'
+
+    - name: Instalasi Dependensi Bersih
+      run: npm ci
+
+    - name: Eksekusi Perintah Build TypeScript
+      run: npm run build
+
+    - name: Simpan Hasil Build sebagai Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: aplikasi-siap-rilis
+        path: dist/
+
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
