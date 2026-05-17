@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import logoInkubator from '../Inkubator.png'; // Sesuaikan jalurnya
+import inkubatorImg from './Inkubator.png';
 import { motion, AnimatePresence } from 'motion/react';
 import { 
   Zap,
@@ -395,19 +395,25 @@ export default function App() {
                 </a>
               </div>
 
-              <div className="relative group">
-                <div className="aspect-[4/3] glass rounded-3xl overflow-hidden shadow-2xl relative border-primary/20 bg-white/5 ring-1 ring-white/10">
-                  <img 
-                    src='../Inkubator.png'
-                    alt="Inkubator VeloFerment Industrial" 
-                    className="w-full h-full object-contain p-4 transition-transform duration-700 group-hover:scale-105"
-                    referrerPolicy="no-referrer"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800';
-                    }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-bg-dark/80 via-transparent to-transparent opacity-60" />
-                  
+              export default function App() {
+                return (
+                  <div className="relative group">
+                    <div className="aspect-[4/3] glass rounded-3xl overflow-hidden shadow-2xl relative border-primary/20 bg-white/5 ring-1 ring-white/10">
+                      <img 
+                        src={inkubatorImg} // <-- Ubah bagian ini menggunakan variabel import
+                        alt="Inkubator VeloFerment Industrial" 
+                        className="w-full h-full object-contain p-4 transition-transform duration-700 group-hover:scale-105"
+                        referrerPolicy="no-referrer"
+                        onError={(e) => {
+                          (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800';
+                        }}
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-bg-dark/80 via-transparent to-transparent opacity-60" />
+                    </div>
+                  </div>
+                );
+              }
+            
                   <div className="absolute bottom-6 left-6 right-6">
                     <div className="glass p-4 rounded-2xl border border-white/10 backdrop-blur-md">
                       <div className="flex items-center gap-3">
