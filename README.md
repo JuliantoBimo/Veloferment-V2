@@ -1,20 +1,44 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🌿 VeloFerment: Elevasi Produksi Tempe Presisi
 
-# Run and deploy your AI Studio app
+![VeloFerment Banner](https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200&h=400)
 
-This contains everything you need to run your app locally.
+**VeloFerment** adalah solusi IoT (*Internet of Things*) kelas industri yang dirancang khusus untuk merevolusi proses produksi tempe tradisional menjadi ekosistem digital yang terukur, efisien, dan presisi tinggi.
 
-View your app in AI Studio: https://ai.studio/apps/eca739db-990f-4e76-b4a6-a6e118fb35bc
+---
 
-## Run Locally
+## 🚀 Fitur Utama
 
-**Prerequisites:**  Node.js
+- **🧠 AI Fermentation Monitoring**: Menggunakan algoritma *Fuzzy Logic Sugeno* untuk memprediksi kematangan tempe secara akurat berdasarkan variabel suhu dan kelembapan.
+- **📊 Real-time Dashboard**: Pantau kondisi inkubator langsung melalui antarmuka web yang interaktif dengan grafik responsif.
+- **📱 Cloud Connected**: Sinkronisasi data ke cloud untuk monitoring jarak jauh, memungkinkan kontrol penuh UMKM di mana saja.
+- **⚡ Efisiensi Energi**: Optimasi pemanas dan ventilasi yang mampu menghemat konsumsi energi hingga 35%.
+- **🎓 Riset Terpuji**: Teknologi yang didasarkan pada riset akademik tervalidasi (Universitas Diponegoro).
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Tech Stack
+
+- **Frontend**: [React 18](https://reactjs.org/), [Tailwind CSS](https://tailwindcss.com/)
+- **Visualisasi**: [Recharts](https://recharts.org/)
+- **Ikon**: [Lucide React](https://lucide.dev/)
+- **Animasi**: [Framer Motion](https://www.framer.com/motion/)
+- **Build System**: [Vite](https://vitejs.dev/)
+
+---
+
+## 🔬 Validasi Ilmiah
+
+Teknologi VeloFerment tidak hanya sekadar perangkat keras, namun merupakan implementasi dari publikasi riset ilmiah di **Jurnal Ilmiah Transient UNDIP**. Kami memastikan bahwa algoritma kontrol yang digunakan memiliki dasar teori yang kuat untuk menjamin kualitas standar produk tempe Anda.
+
+> "Membawa standardisasi mutu industri besar ke tangan pengusaha UMKM."
+
+---
+
+## 📄 Lisensi & Kontak
+
+Dibuat dengan ❤️ oleh **Julianto Bimo**.  
+Untuk konsultasi pemasangan atau kerjasama, silakan hubungi:  
+📧 [Bimojulianto24@gmail.com](mailto:Bimojulianto24@gmail.com)
+
+---
+*VeloFerment - Precision, Efficiency, Scale.*
