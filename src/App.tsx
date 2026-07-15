@@ -498,7 +498,7 @@ export default function App() {
                 <h5 className="font-bold mb-4 md:mb-6 text-sm">Kontak</h5>
                 <ul className="space-y-3 md:space-y-4 text-sm opacity-50 font-medium font-mono">
                   <li className="flex items-center gap-3">
-                    <Mail className="w-4 h-4" /> Juliantobimo4@gmail.com
+                    <Mail className="w-4 h-4" /> ---
                   </li>
                 </ul>
               </div>
