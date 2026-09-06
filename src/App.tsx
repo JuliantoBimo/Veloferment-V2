@@ -72,7 +72,7 @@ const Navbar = () => {
           <a href="#dashboard" className="hover:text-indigo-400 transition-colors">Simulasi</a>
           <a href="#invest" className="hover:text-indigo-400 transition-colors">Investasi</a>
           <button 
-            onClick={() => window.location.href = 'mailto:Bimojulianto24@gmail.com'}
+            onClick={() => window.location.href = 'mailto:Veloferment@gmail.com'}
             className="bg-primary text-white px-5 py-2 rounded-full font-bold hover:scale-105 transition-transform shadow-lg shadow-primary/20"
           >
             Mulai Sekarang
@@ -261,7 +261,7 @@ export default function App() {
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <button 
-                onClick={() => window.location.href = 'mailto:Bimojulianto24@gmail.com'}
+                onClick={() => window.location.href = 'mailto:Veloferment@gmail.com'}
                 className="w-full sm:w-auto bg-primary text-white px-8 md:px-10 py-4 rounded-2xl font-bold text-base md:text-lg hover:scale-105 transition-all shadow-[0_10px_30px_rgba(99,102,241,0.3)]">
                 Konsultasi Pemasangan
               </button>
@@ -412,7 +412,7 @@ export default function App() {
                     <div className="glass p-4 rounded-2xl border border-white/10 backdrop-blur-md">
                       <div className="flex items-center gap-3">
                         <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-                        <span className="text-[10px] uppercase font-bold tracking-widest text-white/80">Prototyping V.2.1 - Industrial Grade</span>
+                        <span className="text-[10px] uppercase font-bold tracking-widest text-white/80">Industrial Grade</span>
                       </div>
                     </div>
                   </div>
@@ -458,7 +458,7 @@ export default function App() {
                </li>
              </ul>
              <button 
-                onClick={() => window.location.href = 'mailto:Bimojulianto24@gmail.com'}
+                onClick={() => window.location.href = 'mailto:Veloferment@gmail.com'}
                 className="w-full bg-primary text-white py-4 md:py-5 rounded-2xl font-bold text-lg md:text-xl hover:scale-[1.02] transition-transform">
                 Pesan Unit Sekarang
              </button>
@@ -498,7 +498,7 @@ export default function App() {
                 <h5 className="font-bold mb-4 md:mb-6 text-sm">Kontak</h5>
                 <ul className="space-y-3 md:space-y-4 text-sm opacity-50 font-medium font-mono">
                   <li className="flex items-center gap-3">
-                    <Mail className="w-4 h-4" /> ---
+                    <Mail className="w-4 h-4" /> veloferment@gmail.com
                   </li>
                 </ul>
               </div>
@@ -506,7 +506,7 @@ export default function App() {
           </div>
           
           <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-[9px] md:text-[10px] uppercase font-bold tracking-widest opacity-20 border-t border-white/5 pt-10 text-center">
-            <span>&copy; 2026 Julianto Bimo. All Rights Reserved.</span>
+            <span>&copy; 2026 Veloferment. All Rights Reserved.</span>
             <span>Solusi Rekayasa untuk Industri Makanan Terintegrasi</span>
           </div>
         </div>
